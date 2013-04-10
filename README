@@ -1,12 +1,22 @@
 The motive behind the making of automated form filler is to show the flaw in google form ->
 
-They sholud have options to add a captcha in the form 
-The 4000 entries limit looses valid entries in the drive. (but they do have an option to download the entire data )
+1. They sholud have options to add a captcha in the form 
+2. The 4000 entries limit looses valid entries in the drive. (but they do have an option to download the entire data )
 
 Google forms recieves a stepmotherly treatment from its own makers.
-There is no option to add a custom theme (this is acceptable as they want to monetize over custom forms)
-But non capta support is unforgiveable.
+There is no option to add a custom theme (ok this is acceptable as they want to monetize over custom forms)
+But non-availability of  capta support is unforgiveable.
 
 Dont missuse this to  corrupt forms.
 
+
+Usage - 
+
+(chmod +x formfiller2.py)
+./formfiller2.py "googleformurl" "number of times to repeat"
+
+
+
+formfiller.py doesnt use lxml so it can only fill textfields and textareas
+formfiller2.py requires lxml
 
