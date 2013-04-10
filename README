@@ -12,7 +12,6 @@ Dont missuse this to  corrupt forms.
 
 Usage - 
 
-(chmod +x formfiller2.py)
 ./formfiller2.py "googleformurl" "number of times to repeat"
 
 
